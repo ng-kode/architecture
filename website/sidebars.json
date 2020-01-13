@@ -1,0 +1,128 @@
+{
+  "docs": {
+    "Introduction": [
+      "about-this-course-jqlr1xlrlnj",
+      "significance-of-software-architecture-yv7vgxwo4zw"
+    ],
+    "Different Tiers in Software Architecture": [
+      "introduction-q2w5anazwgg",
+      "single-tier-applications-g7p25olng26",
+      "two-tier-applications-bnrk3j8zmjy",
+      "three-tier-applications-gxo8vo1k179",
+      "n-tier-applications-qvnmz4rk79y",
+      "different-tiers-in-software-architecture-quiz-memolpn5rze"
+    ],
+    "Web Architecture": [
+      "what-is-web-architecture-qaz4ple71yd",
+      "client-server-architecture-yqrnm5l9vl2",
+      "client-n7knn1jv0dk",
+      "types-of-client-qvxwmj6ymv7",
+      "server-ymgqlnl40oa",
+      "communication-between-the-client-the-server-xvbe96vaoqb",
+      "web-architecture-quiz-part-1-qvrnnpg4a8d",
+      "what-is-a-rest-api-qadazx6yorr",
+      "http-push-pull-introduction-je1yez4xyzj",
+      "http-pull-polling-with-ajax-n01xna6ak1m",
+      "http-push-ym9l8lxn530",
+      "http-push-based-technologies-xlx9bqwpvll",
+      "client-side-vs-server-side-rendering-g7q0rjyj78l",
+      "web-architecture-quiz-part-2-n0oypznk9wn"
+    ],
+    "Scalability": [
+      "what-is-scalability-yqmww9ggkkm",
+      "types-of-scalability-my5og6zgozn",
+      "which-scalability-approach-is-right-for-your-app-xoewlmnmwop",
+      "primary-bottlenecks-that-hurt-the-scalability-of-our-application-yvb7azlkgdo",
+      "how-to-improve-test-the-scalability-of-our-application-n7x6jj56yrn",
+      "scalability-quiz-g2bj6mr34xj"
+    ],
+    "High Availability": [
+      "what-is-high-availability-mey0j3pmdga",
+      "reasons-for-system-failures-gk0wvggr78l",
+      "achieving-high-availability-fault-tolerance-n0pgxy1kq1m",
+      "redundancy-bnjg2jmzgpx",
+      "replication-q2glm948zpp",
+      "high-availability-clustering-yv17m5jovb0",
+      "high-availability-quiz-myjpnw72lvg"
+    ],
+    "Monolith & Microservices": [
+      "what-is-a-monolithic-architecture-7dx0podnll1",
+      "when-should-you-pick-a-monolithic-architecture-gx66ljknjgg",
+      "what-is-a-microservice-architecture-gxpgnmg7zbr",
+      "when-should-you-pick-a-microservices-architecture-qzm36xd3ex0",
+      "monolith-microservices-quiz-qvxnewwqm6y"
+    ],
+    "Database": [
+      "introduction-types-of-data-n0n7xon2yrn",
+      "relational-database-n8p9977x4p2",
+      "when-should-you-pick-a-relational-database-g7gwvml3de6",
+      "nosql-databases-introduction-3w3o9pyawy9",
+      "features-of-nosql-databases-39yyxa8vvo4",
+      "when-to-pick-a-nosql-database-qzz4p43rpk7",
+      "is-nosql-more-performant-than-sql-q24wynlgxwy",
+      "database-quiz-part-1-3yrp2oaooxa",
+      "polyglot-persistence-3yvdd6kl7go",
+      "multi-model-databases-n7pmm6zvxw8",
+      "eventual-consistency-n7xwgdpv3np",
+      "strong-consistency-gxknzgrd626",
+      "cap-theorem-7x50kr5z3rg",
+      "database-quiz-part-2-qvzoq0jr6v7",
+      "types-of-databases-m24bz9mn16e",
+      "document-oriented-database-bnkapnov2oo",
+      "graph-database-39m5gpqbj5q",
+      "key-value-database-m2grgwr8omg",
+      "time-series-database-7nvw0zwxm9w",
+      "wide-column-database-jqrrv6jnyvk",
+      "database-quiz-part-3-7n493xxn0q1"
+    ],
+    "Caching": [
+      "introduction-q2pkd39rk3r",
+      "how-do-i-figure-if-i-need-a-cache-in-my-application-ymlk3p21lym",
+      "reducing-the-application-deployment-costs-via-caching-39nkwkx4qem",
+      "caching-strategies-gx3kn5jojyy",
+      "caching-quiz-3wpgnkqny9r"
+    ],
+    "Message Queue": [
+      "introduction-to-message-queues-m7aoo5jkw90",
+      "publish-subscribe-model-q2nll5wzgbk",
+      "point-to-point-model-gkoz8rlzolj",
+      "notification-systems-real-time-feeds-with-message-queues-myj404mrxvp",
+      "handling-concurrent-requests-with-message-queues-b19owjle1qx",
+      "message-queue-quiz-qv2kpglj603"
+    ],
+    "Stream Processing": [
+      "introduction-gklprmqopz9",
+      "data-ingestion-r1x5erqk7q0",
+      "different-ways-of-ingesting-data-the-challenges-involved-7agqn620kay",
+      "data-ingestion-use-cases-yqnpk7e7xv9",
+      "data-pipelines-negq8ppmdjn",
+      "distributed-data-processing-rlnjvrrwlal",
+      "lambda-architecture-x100zj6eadj",
+      "kappa-architecture-7xkpvr4yaag",
+      "stream-processing-quiz-g78yq2mn0vz"
+    ],
+    "More On Architecture": [
+      "event-driven-architecture-part-1-n8rzvyo5rpk",
+      "event-driven-architecture-part-2-gkmnpzlyq5k",
+      "web-hooks-n84yjv5ro2d",
+      "shared-nothing-architecture-yvvv9mzwq0y",
+      "hexagonal-architecture-7dynqwgrero",
+      "more-on-architecture-quiz-part-1-q2jom15km0r",
+      "peer-to-peer-architecture-part-1-rlapnkxy84r",
+      "peer-to-peer-architecture-part-2-rmdymyo8lle",
+      "decentralized-social-networks-gxgpomk3bwg",
+      "federated-architecture-7dyyqrvgbmr",
+      "more-on-architecture-quiz-part-2-g2bx1bgkwly"
+    ],
+    "Picking the Right Technology": [
+      "how-to-pick-the-right-server-side-technology-qa9gjeo6p97",
+      "key-things-to-remember-when-picking-the-tech-stack-rlykxnwmmjq",
+      "conclusion-r8rqkwleeok"
+    ],
+    "Case Studies": [
+      "a-web-based-mapping-service-like-google-maps-gkkxovkjzmj",
+      "a-baseball-game-ticket-booking-web-portal-gkeld1ro2l6",
+      "epilogue-n7dg6zqn62k"
+    ]
+  }
+}

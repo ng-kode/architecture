@@ -1,0 +1,44 @@
+---
+id: event-driven-architecture-part-2-gkmnpzlyq5k
+title: Event Driven Architecture - Part 2
+sidebar_label: Event Driven Architecture - Part 2
+---
+
+<div class="PageSummary__TopLeft-sc-19qsvz4-36 fwauBw"><p class="PageSummary__Description-sc-19qsvz4-13 cPWwbw">This lesson contains the second part of the discussion on the event-driven architecture. We will be continuing where we left off in the previous lesson.</p><div class="PageSummary__Toc-sc-19qsvz4-39 gUDsJM"><details open="" class="styles__PageTOCStyled-rf9d2l-0 jgnDfg"><summary role="button" tabindex="0" class="styles__HeadingWrap-rf9d2l-1 jpKLlP">We'll cover the following<div rotate="0" color="black" size="24" display="inline-flex" name="icon-button" class="styles__IconButton-sc-12pjl04-0 bLjBRS"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg></div></summary><div class="markdown-container-div"><div class="markdownViewer Markdown__Viewer-sc-7qtuee-1 dZltoR" role="none"><ul>
+<li>
+<ul>
+<li><a href="#what-are-events">What Are Events?</a></li>
+</ul>
+</li>
+<li>
+<ul>
+<li><a href="#event-driven-architecture">Event-Driven Architecture</a></li>
+</ul>
+</li>
+<li>
+<ul>
+<li><a href="#technologies-for-implementing-the-event-driven-architecture">Technologies For Implementing the Event Driven Architecture</a></li>
+</ul>
+</li>
+</ul>
+</div></div></details></div></div><div class="styles__ViewerComponentViewStyled-sc-1xosrua-0 cvzEyH"><div><div><div><div><div class=""><div class=""><div class="markdown-container-div"><div class="markdownViewer Markdown__Viewer-sc-7qtuee-1 zJKNA" role="none"><h2 id="what-are-events" data-id="5d7ff48bce43e1be7614adbb0836af86">What Are Events? <a class="markdownIt-Anchor" href="#what-are-events"><span class="anchor-link">#</span></a></h2>
+<p data-id="ba512063de8bac10cba6da3ccfb96d82">There are generally two kinds of processes in applications <em>CPU intensive</em> &amp; <em>IO intensive</em>.
+<em>IO</em> in the context of web applications means <em>events</em>. A large number of <em>IO</em> operations mean a lot of events occurring over a period of time. And an event can be anything from a tweet to a click of a button, an HTTP request, an ingested message, a change in the value of a variable etc.</p>
+<p data-id="3396c2f489c539bf2c19c7a3dffefd10">We know that Web 2.0 real-time applications have a lot of events. For instance, there is a lot of request-response between the client and the server, typically in an online game, messaging app etc. <em>Events</em> happening too often is called a <em>stream of events</em>. In the previous chapter, we have already discussed how stream processing works.</p>
+</div></div></div></div></div></div></div></div></div><div class="styles__ViewerComponentViewStyled-sc-1xosrua-0 cvzEyH"><div><div><div><div><div class=""><div class=""><div class="markdown-container-div"><div class="markdownViewer Markdown__Viewer-sc-7qtuee-1 zJKNA" role="none"><h2 id="event-driven-architecture" data-id="a4429397e8ef824e6cb5c134c9aff031">Event-Driven Architecture <a class="markdownIt-Anchor" href="#event-driven-architecture"><span class="anchor-link">#</span></a></h2>
+<p data-id="df5320f4312c89ba5450ee01989abfd6"><em>Non-blocking</em> architecture is also known as the <em>Reactive</em> or the <em>Event-driven</em> architecture. <em>Event-driven</em> architectures are pretty popular in the modern web application development.</p>
+<p data-id="3d7fb7b142d55399e73f16655cbd20bd">Technologies like <em>NodeJS</em>, frameworks in the <em>Java</em> ecosystem like <em>Play</em>, <em><a href="http://Akka.io" target="_blank">Akka.io</a></em> are <em>non-blocking</em> in nature and are built for modern high <em>IO</em> scalable applications.</p>
+<p data-id="74240358a5b036970ad923c489ca6cfb">They are capable of handling a big number of concurrent connections with minimal resource consumption. Modern applications need a fully asynchronous model to scale. These modern web frameworks provide more reliable behaviour in a distributed environment. They are built to run on a cluster, handle large scale concurrent scenarios, tackle problems which generally occur in a clustered environment. They enable us to write code without worrying about handling <em>multi-threads, thread lock, out of memory issues</em> due to high <em>IO</em> etc.</p>
+<p data-id="cbb8a6ab74c08dc97354b0c3c07af682">Coming back to the <em>Event-driven reactive</em> architecture. It simply means reacting to the events occurring regularly. The code is written to react to the events as opposed to sequentially moving through the lines of codes.</p>
+<p data-id="4120cb8dce16184fdb7c6ecff8fdb9fd">I’ve already brought this up, that the sequence of events occurring over a period of time is called as a <em>stream of events</em>. In order to react to the events, the system has to continually monitor the stream. <em>Event-driven</em> architecture is all about processing <em>asynchronous data streams</em>. The application becomes inherently asynchronous.</p>
+<p data-id="d41d8cd98f00b204e9800998ecf8427e"><img src="assets/api_collection_6064040858091520_6411938009448448_page_5438736210853888_image_5685923289235456.jpeg" alt=""></p>
+</div></div></div></div></div></div></div></div></div><div class="styles__ViewerComponentViewStyled-sc-1xosrua-0 cvzEyH"><div><div><div><div><div class=""><div class=""><div class="markdown-container-div"><div class="markdownViewer Markdown__Viewer-sc-7qtuee-1 zJKNA" role="none"><h2 id="technologies-for-implementing-the-event-driven-architecture" data-id="dcef10243392e6a1b3ea9ab7db4dda6f">Technologies For Implementing the Event Driven Architecture <a class="markdownIt-Anchor" href="#technologies-for-implementing-the-event-driven-architecture"><span class="anchor-link">#</span></a></h2>
+<p data-id="d233ac419a6e8151cf62848d6506d46d">With the advent of Web 2.0, people in the tech industry felt the need to evolve the technologies to be powerful enough to implement the modern web application use cases. <em>Spring framework</em> added <em>Spring Reactor</em> module to the core <em>Spring repo</em>. Developers wrote <em>NodeJS</em>, <em><a href="http://Akka.io" target="_blank">Akka.io</a></em>, <em>Play</em> etc.</p>
+<p data-id="28a61a76572e42fbd1b2e2863fc98a44">So, you would have already figured that <em>Reactive event-driven</em> applications are difficult to implement with thread-based frameworks. As dealing with <em>threads</em>, shared <em>mutable state</em>, <em>locks</em> make things a lot more complex. In an <em>event-driven</em> system everything is treated as a <em>stream</em>. The level of abstraction is good, developers don’t have to worry about managing the low-level memory stuff.</p>
+<p data-id="86422817deb8e4299967315edfaa5fd0">And I am sure that you are well aware of the data streaming use cases that apply here, like handling a large number of transaction events, handling changing stock market prices, user events on an online shopping application etc.</p>
+<p data-id="21d76786b78c3a190c3c76b3058b980d"><em>NodeJS</em> is a single-threaded <em>non-blocking</em> framework written to handle more <em>IO</em> intensive tasks. It has an <em>event loop</em> architecture. <a href="https://nodejs.org/fa/docs/guides/event-loop-timers-and-nexttick/" target="_blank">This is a good read on it.</a></p>
+<p data-id="e136db4250ed76ed02cbb9911880c598"><a href="https://www.8bitmen.com/linkedin-real-time-architecture-how-does-linkedin-identify-its-users-online/" target="_blank"><em>LinkedIn</em> uses <em>Play</em> framework for identifying the online status of its users.</a></p>
+<p data-id="e2de44446eb1c1c8174369a90365e196">At the same time, I want to assert this fact that the emergence of <em>non-blocking</em> tech does not mean that the traditional tech is obsolete. Every tech has it use cases.</p>
+<p data-id="b58d3bdcc432c626bac63822d95e4937"><em>NodeJS</em> is not fit for <em>CPU intensive</em> tasks. <em>CPU intensive</em> operations are operations that require a good amount of computational power like for graphics rendering, running ML algorithms, handling data in enterprise systems etc. It would be a mistake to pick <em>NodeJS</em> for these purposes.</p>
+</div></div></div></div></div></div></div></div></div><div class="styles__ViewerComponentViewStyled-sc-1xosrua-0 cvzEyH"><div><div><div><div><div class=""><div class=""><div class="markdown-container-div"><div class="markdownViewer Markdown__Viewer-sc-7qtuee-1 zJKNA" role="none"><p data-id="daeb6bd3fc5af7005d66e8aaaaf61e97">In the upcoming lessons, I will discuss the general guidelines to keep in mind when picking the server-side technology. That will give you more insight into how to pick the right backend technology?</p>
+</div></div></div></div></div></div></div></div></div>
