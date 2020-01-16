@@ -17,10 +17,10 @@ sidebar_label: What Is A Monolithic Architecture?
 </blockquote>
 <p data-id="dd86de39edbf79ba9c18648b9a93c992">A monolithic application is a self-contained, single-tiered software application unlike the microservices architecture, where different modules are responsible for running respective tasks and features of an app.</p>
 <p data-id="d10f3961baa793470290c299cf284dc2">The diagram below represents a monolithic architecture:</p>
-<p data-id="d41d8cd98f00b204e9800998ecf8427e"><img src="assets/courses_web-application-software-architecture-101_assets_api_collection_6064040858091520_6411938009448448_page_6286949360861184_image_6008277051637760.jpeg.jpeg" alt=""></p>
+<p data-id="d41d8cd98f00b204e9800998ecf8427e"><img src="assets/api_collection_6064040858091520_6411938009448448_page_6286949360861184_image_6008277051637760.jpeg" alt=""></p>
 <p data-id="1f1f370fa245ac46cbe6928106d0daa5">In a monolithic web-app all the different layers of the app, UI, business, data access etc. are in the same codebase.</p>
 <p data-id="2f928907791808615a9466f50e564394">We have the <em>Controller</em>, then the <em>Service Layer interface</em>, <em>Class</em> implementations of the interface, the <em>business logic</em> goes in the <em>Object Domain model</em>, a bit in the Service, Business and the <em>Repository/DAO [Data Access Object]</em> classes.</p>
-<p data-id="d41d8cd98f00b204e9800998ecf8427e"><img src="assets/courses_web-application-software-architecture-101_assets_api_collection_6064040858091520_6411938009448448_page_6286949360861184_image_5373720531042304.jpeg.jpeg" alt=""></p>
+<p data-id="d41d8cd98f00b204e9800998ecf8427e"><img src="assets/api_collection_6064040858091520_6411938009448448_page_6286949360861184_image_5373720531042304.jpeg" alt=""></p>
 <p data-id="614930043df03e8dcc113de819931b43">Monolithic apps are simple to build, test &amp; deploy in comparison to a microservices architecture.</p>
 <p data-id="d4c3fcadb4944a465dfb10ebdb3404b0">There are times during the initial stages of the business when teams chose to move forward with the monolithic architecture &amp; then later intend to branch out into the distributed, microservices architecture.</p>
 <p data-id="faa28fc1af212066c0362b7c6393b172">Well, this decision has several trade-offs. And there is no standard solution to this.</p>

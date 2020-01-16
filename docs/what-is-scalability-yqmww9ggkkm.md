@@ -39,7 +39,7 @@ Is it important to scale systems? What are your plans or contingencies to scale 
 <p data-id="af012066d43914a2568e7d22b852f94a">Scalability means the ability of the application to handle &amp; withstand increased workload without sacrificing the latency.</p>
 <p data-id="05906c2c0681725f6c8e38179390959c">For instance, if your app takes x seconds to respond to a user request. It should take the same x seconds to respond to each of the million concurrent user requests on your app.</p>
 <p data-id="544d6fd35be7d35ba56e448ad962a5b3">The backend infrastructure of the app should not crumble under a load of a million concurrent requests. It should scale well when subjected to a heavy traffic load &amp; should maintain the latency of the system.</p>
-<p data-id="d41d8cd98f00b204e9800998ecf8427e"><img src="assets/courses_web-application-software-architecture-101_assets_api_collection_6064040858091520_6411938009448448_page_5894859313381376_image_5493542946340864.jpeg" alt=""></p>
+<p data-id="d41d8cd98f00b204e9800998ecf8427e"><img src="assets/api_collection_6064040858091520_6411938009448448_page_5894859313381376_image_5493542946340864.jpeg" alt=""></p>
 </div></div></div></div></div></div></div></div></div><div class="styles__ViewerComponentViewStyled-sc-1xosrua-0 cvzEyH"><div><div><div><div><div class=""><div class=""><div class="markdown-container-div"><div class="markdownViewer Markdown__Viewer-sc-7qtuee-1 zJKNA" role="none"><h2 id="what-is-latency" data-id="1145af1bc8e7c709f7da4c1a0d734039">What Is Latency? <a class="markdownIt-Anchor" href="#what-is-latency"><span class="anchor-link">#</span></a></h2>
 <p data-id="93c5d1f9929754e61785c21ddcbe4bb7"><em>Latency</em> is the amount of time a system takes to respond to a user request. Let’s say you send a request to an app to fetch an image &amp; the system takes 2 seconds to respond to your request. The latency of the system is 2 seconds.</p>
 <p data-id="27c810d0313829669485d201c75a3aa5">Minimum latency is what efficient software systems strive for. No matter how much the traffic load on a system builds up, the latency should not go up. This is what scalability is.</p>
@@ -54,7 +54,7 @@ Is it important to scale systems? What are your plans or contingencies to scale 
 <li>Network Latency</li>
 <li>Application Latency</li>
 </ol>
-<p data-id="d41d8cd98f00b204e9800998ecf8427e"><img src="assets/courses_web-application-software-architecture-101_assets_api_collection_6064040858091520_6411938009448448_page_5894859313381376_image_4804805030576128.jpeg" alt=""></p>
+<p data-id="d41d8cd98f00b204e9800998ecf8427e"><img src="assets/api_collection_6064040858091520_6411938009448448_page_5894859313381376_image_4804805030576128.jpeg" alt=""></p>
 <h3 id="network-latency" data-id="f21d08829faf985815ba3baa0d5cc34b">Network Latency <a class="markdownIt-Anchor" href="#network-latency"><span class="anchor-link">#</span></a></h3>
 <p data-id="a2ca658bf295e13f602b4e310ff625df">Network Latency is the amount of time that the network takes for sending a data packet from point A to point B. The network should be efficient enough to handle the increased traffic load on the website.
 To cut down the network latency, businesses use CDN &amp; try to deploy their servers across the globe as close to the end-user as possible.</p>
